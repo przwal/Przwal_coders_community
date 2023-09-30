@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(233, 244, 248);
+    color: rgb(49, 49, 49);
+}
+h1,h4,h2,h3{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    font-size: 500;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    align-items: center;
+    margin: 35px;
+    border-radius: 10px;
+}
+.logo{
+    margin-left: 33px;
+}
+.navs ul{
+    display: flex;
+    list-style: none;
+}
+.navs ul li{
+    margin-right: 56px;
+}
+.navs ul li a{
+    color: black;
+    text-decoration: none;
+}
+.navs ul li a:hover{
+    color: blue;
+}
+
+.pageinfo{
+    margin-left: 70px;
+}
+.heading h1{
+    margin-left: 380px;
+    font-family: sans-serif;
+    color: gray;
+    font-weight: lighter;
+}
+.heading p{
+    margin-left: 304px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+main .blogdetails {
+    padding: 10px;
+    margin-left: 70px;
+    width: 12%;
+    color: gray;
+}
+main .blogdetails img{
+    border-radius: 5px;
+}
+main .content{
+    width: 60%;
+}
+main .add-details{
+    width: 20%;
+}
+main .content .content-image{
+    margin: 10px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+main .content .content-image img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%; 
+    height: 100%; 
+}
+
+p{
+    text-align: justify;
+}
+
+.written-content {
+    margin: 10px;
+}
+
+.comments{
+    margin-left: 10px;
+}
+
+.comment_section{
+    width: 74%;
+    margin-left: 70px;
+}
+
+.leave_comment .form{
+    display: flex;
+}
+.leave_comment h3{
+    margin: 10px;
+}
+.leave_comment .form div{
+    margin: 10px;
+}
+.leave_comment .form div input{
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 30px;
+    width: 300px;
+}
+
+.form .message input{
+    height: 122px !important;
+}
+.info_and_btn{
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+.info_and_btn input{
+    width: 85px;
+    height: 32px;
+    margin-left: 312px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: white;
+}
+
+.footer{
+    font-size: small;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 54px;
+}
+.footer div{
+    margin: 10px;
+}
+.footer div h4{
+    color: black;
+    font-weight: lighter;
+}
+.footer form input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#submit_email {
+    background-color: blue;
+    border: none;
+    margin-left: -15px;
+    height: 29.6px;
+    border-bottom-left-radius:0px ;
+    border-top-left-radius: 0px;
+}
+.copyright-text {
+    font-size: small;
+    margin-left: 78px;
+}
+.add-details{
+    padding: 5px;
+}
+.add-details input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 23px;
+}
+.radios{
+    display: flex;
+    align-items: center;
+    margin-left: -3px;
+}
+.radios input {
+    margin-right: 6px;
+}
+
+.categories{
+    margin-top: 54px;
+}
